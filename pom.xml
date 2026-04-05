@@ -11,7 +11,7 @@
 
     <groupId>com.app</groupId>
     <artifactId>spring-boot-jdbc-app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
 
     <name>spring-boot-jdbc-app</name>
 
