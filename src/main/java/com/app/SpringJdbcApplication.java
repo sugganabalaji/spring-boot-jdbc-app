@@ -20,14 +20,14 @@ public class SpringJdbcApplication {
         s1.setMarks(78);
 
         StudentService service = context.getBean(StudentService.class);
-        service.save(s1);
+        //service.save(s1);
 
         Student s2 = context.getBean(Student.class);
         s2.setSId(52);
         s2.setSName("John");
         s2.setMarks(50);
 
-        service.save(s2);
+        //service.save(s2);
 
         List<Student> students = service.findAll();
         students.forEach(System.out::println);
