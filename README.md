@@ -35,10 +35,12 @@ A modern Spring JDBC project integrating PostgreSQL, built with annotation-drive
 ```
   
 - Update application.properties:
+  ```
 spring.datasource.url=jdbc:postgresql://localhost:5432/spring_jdbc_demo
 spring.datasource.username=postgre
 spring.datasource.password=root
 spring.datasource.driver-class-name=org.postgresql.Driver
+```
 
 3. **Build the project**
   ```bash
@@ -62,8 +64,6 @@ spring-jdbc/
  │    └── application.properties
  └── pom.xml
 ```
-
-
 
 📖 **Example Usage**
 - Insert a record using JDBC Template
