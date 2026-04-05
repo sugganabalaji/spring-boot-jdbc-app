@@ -24,9 +24,10 @@ A modern Spring JDBC project integrating PostgreSQL, built with annotation-drive
 
 ## ⚙️ Setup Instructions
 1. **Clone the repository**
-   ```bash
+```bash
    git clone https://github.com/sugganabalaji/spring-jdbc.git
    cd spring-jdbc
+```
 
 2. **Configure PostgreSQL**
 - Create a database:
@@ -43,26 +44,26 @@ A modern Spring JDBC project integrating PostgreSQL, built with annotation-drive
 ```
 
 3. **Build the project**
-  ```bash
+```bash
    mvn clean install
-   ```
+```
 
 4. **Run the application**
-   ```bash
+```bash
    mvn spring-boot:run
-   ```
+```
 
 🗂️ **Project Structure**
 ```
-spring-jdbc/
- ├── src/main/java/com/app/spring-jdbc
- │    ├── config/        # Spring configuration
- │    ├── model/         # Entity classes
- │    ├── repository/    # JDBC repositories
- │    └── service/       # Business logic
- ├── src/main/resources/
- │    └── application.properties
- └── pom.xml
+   spring-jdbc/
+    ├── src/main/java/com/app/spring-jdbc
+    │    ├── config/        # Spring configuration
+    │    ├── model/         # Entity classes
+    │    ├── repository/    # JDBC repositories
+    │    └── service/       # Business logic
+    ├── src/main/resources/
+    │    └── application.properties
+    └── pom.xml
 ```
 
 📖 **Example Usage**
